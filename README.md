@@ -22,3 +22,9 @@ Git commands cheet sheets. This document will be updated frequently.
 `git branch -r`
 
 `git branch -a (all from local and remote)`
+
+
+### renaming branch
+`git branch -m <oldname> <newname>`
+
+`git branch -m <newname>` (if you are in the branch)
