@@ -20,4 +20,5 @@ Git commands cheet sheets. This document will be updated frequently.
 
 ### list all the remote branch
 `git branch -r`
+
 `git branch -a (all from local and remote)`
