@@ -28,3 +28,9 @@ Git commands cheet sheets. This document will be updated frequently.
 `git branch -m <oldname> <newname>`
 
 `git branch -m <newname>` (if you are in the branch)
+
+
+### stashing in git
+`git stash push -m "message"`
+
+`git stash apply stash@{index}`
