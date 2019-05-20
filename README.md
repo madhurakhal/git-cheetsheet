@@ -34,3 +34,7 @@ Git commands cheet sheets. This document will be updated frequently.
 `git stash push -m "message"`
 
 `git stash apply stash@{index}`
+
+
+### showing remote branches
+`git checkout show origin`
