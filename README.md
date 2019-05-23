@@ -37,4 +37,7 @@ Git commands cheet sheets. This document will be updated frequently.
 
 
 ### showing remote branches
-`git checkout show origin`
+`git  show origin`
+
+### showing all remote branches
+`git branch -r`
