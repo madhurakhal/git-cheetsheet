@@ -41,3 +41,7 @@ Git commands cheet sheets. This document will be updated frequently.
 
 ### showing all remote branches
 `git branch -r`
+
+
+### remove all merged branch
+`git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d` be careful you should be in master branch.
