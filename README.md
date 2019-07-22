@@ -35,6 +35,9 @@ Git commands cheet sheets. This document will be updated frequently.
 
 `git stash apply stash@{index}`
 
+`git stash save "stash_name"`
+`git stash pop stash@{stash_name}`
+
 
 ### showing remote branches
 `git  show origin`
