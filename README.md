@@ -49,6 +49,7 @@ Git commands cheet sheets. This document will be updated frequently.
 ### remove all merged branch
 `git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d` be careful you should be in master branch.
 `git branch -d `git branch --merged``
+`git branch --merged master | grep -v master | xargs -n 1 git branch -d`
 
 ### To delete all branches on remote that are alread merged
 `git branch -r --merged | grep -v master | sed 's/origin\///' | xargs -n 1 git push --delete origin`
