@@ -54,5 +54,5 @@ Git commands cheet sheets. This document will be updated frequently.
 ### To delete all branches on remote that are alread merged
 `git branch -r --merged | grep -v master | sed 's/origin\///' | xargs -n 1 git push --delete origin`
 
-### To delete all branch
+### To delete all branch on local machine
 `git branch | grep -v "master\|Release-02-2022\|feature-remove-any-types" | xargs git branch -D`
